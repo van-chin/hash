@@ -1,0 +1,21 @@
+{
+  "name": "van/hash",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin van/hash reference yzh52521/webman-hash",
+  "authors": [
+    {
+      "name": "Van Chin",
+      "email": "van.chin@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "illuminate/hashing": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Van\\Hash\\": "src"
+    }
+  }
+}

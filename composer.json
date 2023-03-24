@@ -2,6 +2,7 @@
   "name": "van/hash",
   "type": "library",
   "license": "MIT",
+  "homepage": "https://github.com/van-chin/hash.git",
   "description": "Webman plugin van/hash reference yzh52521/webman-hash",
   "authors": [
     {
@@ -12,6 +13,9 @@
   "require": {
     "php": ">=8.1",
     "illuminate/hashing": "^10.0"
+  },
+  "require-dev": {
+    "workerman/webman": "^1.5"
   },
   "autoload": {
     "psr-4": {
